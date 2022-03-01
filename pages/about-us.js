@@ -55,7 +55,7 @@ function AboutUs(props) {
             reprehenderit in voluptate velit esse cillum.
           </p>
 
-          <div class="grid grid-cols-3 grid-flow-row gap-4  my-10">
+          <div className="grid grid-cols-3 grid-flow-row gap-4  my-10">
             <div className="w-full h-full flex items-center justify-end">
               <img
                 src="images/a-bearded-man-praying-5206040.png"

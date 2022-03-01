@@ -43,9 +43,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={" " + styles.sub_section}>
+      <div className={ styles.sub_section}>
         <h1 className=" text-5xl font-bold mt-32 text-center uppercase mb-11">
-          a mosque that's relevant
+          a mosque that<span>&apos;</span>s relevant
         </h1>
         <div className="container mx-auto">
           <div className="grid grid-cols-3 grid-flow-row gap-4">
@@ -108,7 +108,7 @@ export default function Home() {
 
       <div className={"container mx-auto   " + styles.sub_section}>
         <h1 className=" text-5xl font-bold mt-32 text-center uppercase mb-11">
-          a mosque that's relevant
+          a mosque that<span>&apos;</span>s relevant
         </h1>
         <p className=" w-3/4 mx-auto text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -119,7 +119,7 @@ export default function Home() {
           pariatur.
         </p>
         <div className="container mx-auto">
-          <div class="grid grid-cols-3 grid-flow-row gap-4">
+          <div className="grid grid-cols-3 grid-flow-row gap-4">
             <div>
               <img
                 src="images/a-bearded-man-praying-5206040.png"
@@ -161,7 +161,7 @@ export default function Home() {
           </h1>
 
           <div className={"container mx-auto mt-4"}>
-            <div class="grid grid-cols-4 grid-flow-row gap-4">
+            <div className="grid grid-cols-4 grid-flow-row gap-4">
               <div className={" " + styles.benefits_card}>
                 <Image src={Image1} layout="fill" className=" absolute" />
                 <div className={"" + styles.shadow_overly}></div>
