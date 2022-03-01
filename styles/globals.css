@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  src: local("RobotoCondensed-Regular"),
+    url(../fonts/RobotoCondensed-Regular.ttf) format("ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg_grey {
+  background: #e5e5e5;
+}
+.btn_primary {
+  background-color: #ffd2a4;
+  color: #161722;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 48px;
+  font-family: Roboto Condensed;
+
+  /* primary */
+
+  background: #ffd2a4;
+  backdrop-filter: blur(80px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+}
+
+.btn_secondry {
+  background-color: #161722;
+  color: #ffd2a4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 48px;
+  font-family: Roboto Condensed;
+
+  /* primary */
+  backdrop-filter: blur(80px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+}
+
+.bg_light_orange {
+  background: #fff5eb;
+}
+
+.orange_text {
+  background: rgba(165, 78, 43, 1);
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(165, 78, 43, 1) 0%,
+    rgba(220, 152, 83, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    to right,
+    rgba(165, 78, 43, 1) 0%,
+    rgba(220, 152, 83, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(165, 78, 43, 1) 0%,
+    rgba(220, 152, 83, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/*======================= common card setup ===========================*/
+
+.blog_card {
+  width: 100%;
+  position: relative;
+  left: auto;
+  right: auto;
+  z-index: 2;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 40px;
+ 
+}
+.blog_card .body_text {
+  position: relative;
+  z-index: 3;
+}
+.blog_card .bottom_color {
+  position: absolute;
+  background-color: #ffd2a4;
+  height: 100%;
+  width: 100%;
+
+  clip-path: inset(96% 0% 0% 0%);
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+.blog_card:hover .bottom_color {
+  clip-path: inset(0% 0% 0% 0%);
+}
+
+/*==================== stylish div style ===========================*/
+.stylish_div {
+  float: none;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  height: 120px;
+}
+.stylish_div_overlay {
+  position: absolute;
+  background-color: #ffd2a4;
+  height: 100%;
+  width: 100%;
+
+  clip-path: inset(0% 99.5% 0% 0%);
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.stylish_div .stylish_div_text {
+  position: absolute;
+  z-index: 3;
+  background: transparent;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.stylish_div:hover .stylish_div_overlay {
+  clip-path: inset(0% 0% 0% 0%);
+}

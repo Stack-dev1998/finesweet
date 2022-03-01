@@ -1,0 +1,43 @@
+.recent_post{
+    height: 430px;
+    background: white;
+}
+
+ 
+
+.blog_card {
+    float: none;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    height: 120px;
+  
+  }
+  .blog_card .body_text {
+    position: absolute;
+    z-index: 3;
+    background: transparent;
+    padding:20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    
+  }
+  .blog_card .bottom_color {
+    position: absolute;
+    background-color: #ffd2a4;
+    height: 100%;
+    width: 100%;
+  
+    clip-path: inset(0% 99.5% 0% 0%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+  }
+  .blog_card:hover .bottom_color {
+    clip-path: inset(0% 0% 0% 0%);
+  }
+  
+  

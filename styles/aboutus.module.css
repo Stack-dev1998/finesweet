@@ -1,0 +1,18 @@
+.hero_section {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+.hero_section .heroText {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+.team_card {
+  height: 350px;
+  width: 100%;
+}
+
+.register {
+  height: 550px;
+}
