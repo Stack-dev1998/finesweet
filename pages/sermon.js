@@ -6,17 +6,13 @@ import Link from 'next/link'
 import Header from "../components/header";
 import Footer from "../components/footer";
 import image12 from "../public/images/image12.png";
-import Image1 from "../public/images/image8.png";
-import Image2 from "../public/images/image9.png";
-import Image3 from "../public/images/image10.png";
-import Image4 from "../public/images/image11.png";
 import Image5 from "../public/images/image5.png";
 
  
 import styles from "../styles/aboutus.module.css";
 import StylishCard from "../components/utility/stylishCard";
 
-function sermon(props) {
+function sermon() {
   return (
     <div>
       <Head>

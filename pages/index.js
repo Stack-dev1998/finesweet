@@ -10,10 +10,6 @@ import Image3 from "../public/images/image3.png";
 import Image4 from "../public/images/image4.png";
 import Image5 from "../public/images/image5.png";
 import Image6 from "../public/images/image6.png";
-
-import prayIcon from "../public/images/icons/pray.svg";
-import shareIcon from "../public/images/icons/share.svg";
-import heartIcon from "../public/images/icons/heart.svg";
 import styles from "../styles/index.module.css";
 import StylishCard from "../components/utility/stylishCard";
 
@@ -56,7 +52,7 @@ export default function Home() {
               }
             >
               <div className=" w-72 body_text">
-                <img src={"images/icons/pray.svg"} className=" " />
+                <Image src={"images/icons/pray.svg"} className=" " layout="fill"/>
                 <h1 className=" text-3xl uppercase font-bold my-3">about us</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -73,7 +69,7 @@ export default function Home() {
               }
             >
               <div className=" w-72 body_text">
-                <img src={"images/icons/heart.svg"} className=" " />
+                <Image src={"images/icons/heart.svg"} className=" " layout="fill"/>
                 <h1 className=" text-3xl uppercase font-bold my-3">
                   Get involved
                 </h1>
@@ -274,7 +270,7 @@ export default function Home() {
                 Saturday 11:20 ISD
               </p>
               <p className="mt-2 flex ">
-                <img src="images/icons/location.svg" className="mr-4" /> No 233
+                <img src="images/icons/location.svg" className="mr-4"  /> No 233
                 Main St. New York,
                 <br /> United States
               </p>
@@ -316,7 +312,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center justify-center">
-              <img src="images/icons/quote_icons.svg" />
+              < img src="images/icons/quote_icons.svg"   />
             </div>
           </div>
           <div className={"  " + styles.bottom_color}></div>

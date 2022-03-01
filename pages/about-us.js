@@ -57,26 +57,28 @@ function AboutUs(props) {
 
           <div className="grid grid-cols-3 grid-flow-row gap-4  my-10">
             <div className="w-full h-full flex items-center justify-end">
-              <img
+              <Image
                 src="images/a-bearded-man-praying-5206040.png"
                 className=" float-right"
+                layout="fill"
               />
             </div>
             <div className="mx-auto">
-              <img
+              <Image
                 src="images/man-and-woman-reading-book-while-sitting-on-pews-8468470.png"
                 className="mx-auto "
+                layout="fill"
               />
             </div>
             <div className="w-full h-full flex items-center justify-start">
-              <img src="images/people-sitting-on-brown-pews-8674151.png" />
+              <Image src="images/people-sitting-on-brown-pews-8674151.png"  layout="fill"/>
             </div>
           </div>
         </div>
 
         <div className="grid grid-cols-2 grid-flow-row gap-4 mx-auto text-left w-2/3">
           <div>
-            <p className=" uppercase"> OUR MISSIOn & Vision</p>
+            <p className=" uppercase"> OUR MISSIOn & Vision</p> 
             <h3 className=" text-3xl font-bold uppercase my-4">
               STRIVING FOR A BETTER TOMORROW
             </h3>

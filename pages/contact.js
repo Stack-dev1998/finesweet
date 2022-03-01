@@ -7,7 +7,7 @@ import image1 from "../public/images/image17.png";
 
 import styles from "../styles/aboutus.module.css";
 
-function contact(props) {
+function contact( ) {
   return (
     <div style={{ background: "#F5F2F0" }}>
       <Head>

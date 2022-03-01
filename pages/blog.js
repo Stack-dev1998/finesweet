@@ -9,7 +9,7 @@ import image1 from "../public/images/image13.png";
 
 import styles from "../styles/blog.module.css";
 import StylishCard from "../components/utility/stylishCard";
-function blog(props) {
+function blog( ) {
   return (
     <div style={{ background: "#F5F2F0" }}>
       <Head>

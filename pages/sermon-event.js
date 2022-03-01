@@ -1,13 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-
 import Header from "../components/header";
 import Footer from "../components/footer";
 import image1 from "../public/images/image16.png";
- 
-
-import styles from "../styles/sermon.module.css";
 import StylishDiv from "../components/utility/stylishTextDiv";
 import StylishCard from "../components/utility/stylishCard";
 

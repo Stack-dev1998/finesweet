@@ -6,8 +6,6 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import image1 from "../public/images/image14.png";
 import image2 from "../public/images/image15.png";
-
-import styles from "../styles/blog.module.css";
 import StylishDiv from "../components/utility/stylishTextDiv";
 
 function BlogPost(props) {
