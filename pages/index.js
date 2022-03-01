@@ -52,7 +52,7 @@ export default function Home() {
               }
             >
               <div className=" w-72 body_text">
-                <Image src={"images/icons/pray.svg"} className=" " layout="fill"/>
+                <img src={"images/icons/pray.svg"}  />
                 <h1 className=" text-3xl uppercase font-bold my-3">about us</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -69,7 +69,7 @@ export default function Home() {
               }
             >
               <div className=" w-72 body_text">
-                <Image src={"images/icons/heart.svg"} className=" " layout="fill"/>
+                <img src={"images/icons/heart.svg"}  />
                 <h1 className=" text-3xl uppercase font-bold my-3">
                   Get involved
                 </h1>
